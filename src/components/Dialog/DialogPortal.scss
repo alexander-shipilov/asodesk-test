@@ -1,0 +1,41 @@
+@import "../../util/styles.scss";
+
+.DialogPortal {
+  @include position(absolute, 0, 0, 0, 0);
+  @include flex(row);
+  @include transition(background-color, .1s);
+
+  overflow: auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.DialogPortal_hidden {
+  background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.DialogPortal__dialog {
+  @include transition(opacity transform, .3s);
+  margin: auto;
+}
+
+.DialogPortal__dialog-enter {
+  opacity: 0;
+  transform: translate3d(0, -100px, 0);
+}
+
+.DialogPortal__dialog-enter-active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.DialogPortal__dialog-exit {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+.DialogPortal__dialog-exit-active {
+  opacity: 0;
+  transform: translate3d(0, -100px, 0);
+}

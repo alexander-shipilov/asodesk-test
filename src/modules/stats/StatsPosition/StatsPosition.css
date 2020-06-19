@@ -1,0 +1,33 @@
+:root {
+  --StatsPosition-delta-positive-color: #58f471;
+  --StatsPosition-delta-negative-color: red;
+}
+
+.StatsPosition_positive .StatsPosition__delta {
+  color: var(--StatsPosition-delta-positive-color);
+}
+
+.StatsPosition_negative .StatsPosition__delta {
+  color: var(--StatsPosition-delta-negative-color);
+}
+
+.StatsPosition_positive .StatsPosition__delta-value::before {
+  content: "+";
+}
+
+.StatsPosition_negative .StatsPosition__delta-value::before {
+  content: "-"
+}
+
+.StatsPosition_zero .StatsPosition__delta {
+  display: none;
+}
+
+.StatsPosition__delta::before {
+  content: "(";
+  margin-left: .5ex;
+}
+
+.StatsPosition__delta::after {
+  content: ")";
+}

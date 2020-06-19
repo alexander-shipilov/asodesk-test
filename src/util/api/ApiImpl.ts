@@ -1,0 +1,1 @@
+export type ApiImpl<T> = (...args: any[]) => Promise<T>;

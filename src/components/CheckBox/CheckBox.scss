@@ -1,0 +1,69 @@
+@import "../../util/styles.scss";
+
+.CheckBox {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  opacity: 1;
+  min-height: 28px;
+
+  @include transition(opacity);
+  @include flex(row);
+
+  &_disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.CheckBox__input {
+  @include position(absolute, 0, 0, $width: 0, $height: 0);
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+.CheckBox__mark {
+  @include position(relative, $width: 24px, $height: 24px);
+
+  background-color: #eee;
+  border-radius: 2px;
+
+  &_checked {
+    background-color: #2196F3;
+  }
+
+  &:before {
+    @include position(absolute, 0, 0, 0, 0);
+    @include transition(opacity);
+
+    content: "";
+    opacity: .1;
+
+    @at-root .CheckBox:hover & {
+      background-color: #000;
+    }
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+  }
+
+  &_checked:after {
+    @include position(absolute, 7px, 4px, $width: 6px, $height: 10px);
+    display: block;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+  &_indeterminate:after {
+    @include position(absolute, 5px, 5px, 5px, 5px);
+    display: block;
+    background: #99cae2;
+    border: 3px solid #2196F3;
+    border-radius: 2px;
+  }
+}

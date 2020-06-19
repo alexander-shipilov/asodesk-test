@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FunctionComponent } from "react";
+import { IntlProvider } from "react-intl";
+import { Provider } from "react-redux";
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import { Store } from "redux";
+import "./App.css";
+import messages from "./messages";
+import { AppState } from "./modules/app";
+import { StatsRoute } from "./routes/stats";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export interface AppProps {
+  store: Store<AppState>
 }
 
-export default App;
+export const Empty = () => (
+  <div />
+);
+
+export const App: FunctionComponent<AppProps> = ({ store }: AppProps) => {
+  return (
+    <Provider store={ store }>
+      <IntlProvider locale={ "en-US" } messages={ messages }>
+        <BrowserRouter>
+          <div className='App'>
+            <Switch>
+              <Route path='/stats/' component={ StatsRoute } />
+              <Route path='/explore/:keyword' component={ Empty } />
+              <Redirect to='/stats/' />
+            </Switch>
+          </div>
+        </BrowserRouter>
+      </IntlProvider>
+    </Provider>
+  );
+};

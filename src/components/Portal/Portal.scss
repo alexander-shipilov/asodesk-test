@@ -1,0 +1,11 @@
+@import "../../util/styles.scss";
+
+.Portal {
+  pointer-events: all;
+}
+
+.Portal__root {
+  @include position(fixed, 0, 0, 0, 0);
+  pointer-events: none;
+  z-index: 1000;
+}

@@ -1,0 +1,42 @@
+:root {
+  --color-background-color: #000;
+  --color-0-background-color: red;
+  --color-1-background-color: #58f471;
+  --color-2-background-color: blue;
+  --color-3-background-color: magenta;
+  --color-4-background-color: orange;
+  --color-5-background-color: gray;
+}
+
+.color {
+  display: inline-block;
+  width: 72px;
+  height: 24px;
+  margin: 0 8px;
+  background: var(--color-background-color);
+
+  &.color_0 {
+    background: var(--color-0-background-color);
+  }
+
+  &.color_1 {
+    background: var(--color-1-background-color);
+  }
+
+  &.color_2 {
+    background: var(--color-2-background-color);
+  }
+
+  &.color_3 {
+    background: var(--color-3-background-color);
+  }
+
+  &.color_4 {
+    background: var(--color-4-background-color);
+  }
+
+  &.color_5 {
+    background: var(--color-5-background-color);
+  }
+}
+

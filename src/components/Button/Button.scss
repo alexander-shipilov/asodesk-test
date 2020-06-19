@@ -1,0 +1,47 @@
+@import "../../util/styles.scss";
+
+.Button {
+  @include flex(row);
+  @include transition(background-color color, .1s);
+
+  justify-content: space-around;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 0;
+  cursor: pointer;
+
+  min-height: 32px;
+  width: 120px;
+  padding: 5px 10px;
+
+  background-color: #ddd;
+  color: #666;
+  text-decoration: none;
+  font-size: 13px;
+
+  &:after {
+    @include position(absolute, 0, 0, 0, 0);
+    @include transition(opacity, .1s);
+    content: "";
+    background: #000;
+    opacity: 0;
+  }
+
+  &:hover::after, &:focus::after {
+    opacity: .1;
+  }
+
+  &:active::after {
+    opacity: .2;
+  }
+}
+
+
+.Button:disabled {
+  opacity: 0.5;
+}

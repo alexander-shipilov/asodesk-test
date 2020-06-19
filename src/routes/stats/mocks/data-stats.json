@@ -1,0 +1,1733 @@
+{
+  "data": [
+    {
+      "keyword": "black car",
+      "id": 604330,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:30:50.094230+00:00",
+      "updateDateIpad": "2020-06-19T00:30:50.222922+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 848,
+      "users_per_day": 20,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 194,
+      "searchads_popularity": 8,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 2,
+      "translation": "black car",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": null,
+      "ipad_best_rank": null
+    }, {
+      "keyword": "cab",
+      "id": 231069,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:31:34.956135+00:00",
+      "updateDateIpad": "2020-06-19T00:31:35.068883+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 11,
+        "change": -1
+      },
+      "total_apps": 5318,
+      "users_per_day": 61,
+      "ipad_position_info": {
+        "position": 3,
+        "change": 0
+      },
+      "ipad_total_apps": 2494,
+      "searchads_popularity": 33,
+      "suggestions_count": 13,
+      "timestamp": "-",
+      "color": 4,
+      "translation": "cab",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 6,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "cab app",
+      "id": 604298,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:47:55.760254+00:00",
+      "updateDateIpad": "2020-06-18T04:47:55.900078+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 11,
+        "change": 0
+      },
+      "total_apps": 5313,
+      "users_per_day": 45,
+      "ipad_position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "ipad_total_apps": 2491,
+      "searchads_popularity": 20,
+      "suggestions_count": 7,
+      "timestamp": "-",
+      "color": 5,
+      "translation": "cab app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 4,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "call taxi",
+      "id": 2590052,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T01:19:33.582582+00:00",
+      "updateDateIpad": "2020-06-19T01:19:33.677363+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 10,
+        "change": -3
+      },
+      "total_apps": 289,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 164,
+      "searchads_popularity": 5,
+      "suggestions_count": 6,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "call taxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 1,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "gett",
+      "id": 231076,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:45:51.495755+00:00",
+      "updateDateIpad": "2020-06-18T04:45:51.583627+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 9,
+        "change": 0
+      },
+      "total_apps": 23,
+      "users_per_day": 53,
+      "ipad_position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "ipad_total_apps": 11,
+      "searchads_popularity": 27,
+      "suggestions_count": 11,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "given",
+      "translation_from": "sv",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "gettaxi",
+      "id": 2403914,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T01:26:26.496693+00:00",
+      "updateDateIpad": "2020-06-19T01:26:26.603158+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "total_apps": 225,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 99,
+      "searchads_popularity": 9,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 0,
+      "translation": "gettaxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "go home",
+      "id": 2590069,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T03:12:59.197443+00:00",
+      "updateDateIpad": "2020-06-18T03:12:59.294027+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 29127,
+      "users_per_day": 41,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 18653,
+      "searchads_popularity": 20,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 2,
+      "translation": "go home",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": null,
+      "ipad_best_rank": null
+    }, {
+      "keyword": "grab car",
+      "id": 2384680,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T05:07:35.452801+00:00",
+      "updateDateIpad": "2020-06-18T05:07:35.537045+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 5,
+        "change": 0
+      },
+      "total_apps": 1040,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "ipad_total_apps": 717,
+      "searchads_popularity": 5,
+      "suggestions_count": 2,
+      "timestamp": "-",
+      "color": 4,
+      "translation": "grab car",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 4,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "grabtaxi",
+      "id": 2393286,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:16:54.962921+00:00",
+      "updateDateIpad": "2020-06-18T04:16:55.048352+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 5,
+        "change": 0
+      },
+      "total_apps": 1062,
+      "users_per_day": 45,
+      "ipad_position_info": {
+        "position": 7,
+        "change": 0
+      },
+      "ipad_total_apps": 730,
+      "searchads_popularity": 5,
+      "suggestions_count": 1,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "grabtaxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 4,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "grab taxi",
+      "id": 604340,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T05:51:39.688098+00:00",
+      "updateDateIpad": "2020-06-18T05:51:39.761752+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 7,
+        "change": 0
+      },
+      "total_apps": 1081,
+      "users_per_day": 25,
+      "ipad_position_info": {
+        "position": 4,
+        "change": 0
+      },
+      "ipad_total_apps": 732,
+      "searchads_popularity": 16,
+      "suggestions_count": 2,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "grab taxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "local taxi",
+      "id": 2590071,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T06:34:44.679485+00:00",
+      "updateDateIpad": "2020-06-18T06:34:44.784247+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 4,
+        "change": 0
+      },
+      "total_apps": 23119,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "ipad_total_apps": 14910,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 5,
+      "translation": "local taxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "lyft",
+      "id": 2518600,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T03:11:13.562770+00:00",
+      "updateDateIpad": "2020-06-18T03:11:13.657196+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 3,
+        "change": 0
+      },
+      "total_apps": 57,
+      "users_per_day": 4728,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 34,
+      "searchads_popularity": 76,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "lift",
+      "translation_from": "sv",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "lyft app",
+      "id": 2518786,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:07:51.916527+00:00",
+      "updateDateIpad": "2020-06-19T02:07:51.990492+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "total_apps": 53,
+      "users_per_day": 76,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 28,
+      "searchads_popularity": 36,
+      "suggestions_count": 3,
+      "timestamp": "-",
+      "color": 2,
+      "translation": "lifting ideas",
+      "translation_from": "sv",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "new york",
+      "id": 477298,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:35:07.874135+00:00",
+      "updateDateIpad": "2020-06-19T00:35:08.023815+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 4989,
+      "users_per_day": 59,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 3272,
+      "searchads_popularity": 29,
+      "suggestions_count": 11,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "new york",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": null,
+      "ipad_best_rank": null
+    }, {
+      "keyword": "nyc taxi app",
+      "id": 2590048,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T06:55:18.638391+00:00",
+      "updateDateIpad": "2020-06-18T06:55:18.686593+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 50,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 38,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 5,
+      "translation": "nyc taxi app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "ny taxi",
+      "id": 603722,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T01:02:11.124432+00:00",
+      "updateDateIpad": "2020-06-19T01:02:11.255953+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 4,
+        "change": 0
+      },
+      "total_apps": 23103,
+      "users_per_day": 16,
+      "ipad_position_info": {
+        "position": 4,
+        "change": 0
+      },
+      "ipad_total_apps": 14914,
+      "searchads_popularity": 5,
+      "suggestions_count": 1,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "the taxi",
+      "translation_from": "mg",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "ride",
+      "id": 604296,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:03:10.803503+00:00",
+      "updateDateIpad": "2020-06-19T02:03:11.009385+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 11,
+        "change": 0
+      },
+      "total_apps": 11522,
+      "users_per_day": 102,
+      "ipad_position_info": {
+        "position": 36,
+        "change": 0
+      },
+      "ipad_total_apps": 7533,
+      "searchads_popularity": 41,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "ride",
+      "translation_from": "en",
+      "in_name": {
+        "count": 1,
+        "full": true
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 7,
+      "ipad_best_rank": 3
+    }, {
+      "keyword": "rideshare",
+      "id": 2353052,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:56:09.303394+00:00",
+      "updateDateIpad": "2020-06-18T04:56:09.421293+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 10,
+        "change": 0
+      },
+      "total_apps": 1273,
+      "users_per_day": 61,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 493,
+      "searchads_popularity": 32,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "rideshare",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 6,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "ridesharing",
+      "id": 230720,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T03:38:35.326947+00:00",
+      "updateDateIpad": "2020-06-18T03:38:35.401194+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 243,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 73,
+      "searchads_popularity": 5,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 3,
+      "translation": "ridesharing",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": null,
+      "ipad_best_rank": null
+    }, {
+      "keyword": "share",
+      "id": 477904,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:37:03.492005+00:00",
+      "updateDateIpad": "2020-06-19T00:37:03.716174+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 44,
+        "change": 0
+      },
+      "total_apps": 18338,
+      "users_per_day": 84,
+      "ipad_position_info": {
+        "position": 56,
+        "change": 1
+      },
+      "ipad_total_apps": 10155,
+      "searchads_popularity": 40,
+      "suggestions_count": 11,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "share",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 10,
+      "ipad_best_rank": 4
+    }, {
+      "keyword": "share taxi",
+      "id": 2590057,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T05:06:54.931883+00:00",
+      "updateDateIpad": "2020-06-18T05:06:55.000825+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "total_apps": 444,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 158,
+      "searchads_popularity": 5,
+      "suggestions_count": 3,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "share taxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 1,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "sharing",
+      "id": 482662,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:28:44.288190+00:00",
+      "updateDateIpad": "2020-06-19T02:28:44.447617+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 72,
+        "change": -1
+      },
+      "total_apps": 17796,
+      "users_per_day": 37,
+      "ipad_position_info": {
+        "position": 18,
+        "change": 1
+      },
+      "ipad_total_apps": 9810,
+      "searchads_popularity": 19,
+      "suggestions_count": 12,
+      "timestamp": "-",
+      "color": 5,
+      "translation": "sharing",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 15,
+      "ipad_best_rank": 18
+    }, {
+      "keyword": "sidecar",
+      "id": 2357078,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T05:16:04.370299+00:00",
+      "updateDateIpad": "2020-06-18T05:16:04.442036+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 15,
+        "change": 0
+      },
+      "total_apps": 724,
+      "users_per_day": 77,
+      "ipad_position_info": {
+        "position": 7,
+        "change": 0
+      },
+      "ipad_total_apps": 234,
+      "searchads_popularity": 40,
+      "suggestions_count": 4,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "sidecar",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "siri",
+      "id": 194,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:19:59.943326+00:00",
+      "updateDateIpad": "2020-06-18T04:20:00.059540+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 13,
+        "change": 0
+      },
+      "total_apps": 1335,
+      "users_per_day": 368,
+      "ipad_position_info": {
+        "position": 14,
+        "change": 0
+      },
+      "ipad_total_apps": 774,
+      "searchads_popularity": 47,
+      "suggestions_count": 12,
+      "timestamp": "-",
+      "color": 3,
+      "translation": "siri",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "taxi",
+      "id": 226921,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:41:51.017537+00:00",
+      "updateDateIpad": "2020-06-18T04:41:51.238056+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 16,
+        "change": 0
+      },
+      "total_apps": 23673,
+      "users_per_day": 254,
+      "ipad_position_info": {
+        "position": 58,
+        "change": 0
+      },
+      "ipad_total_apps": 15231,
+      "searchads_popularity": 47,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "taxi",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 11,
+      "ipad_best_rank": 11
+    }, {
+      "keyword": "taxi app",
+      "id": 604272,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:33:00.214884+00:00",
+      "updateDateIpad": "2020-06-19T02:33:00.326688+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 8,
+        "change": 1
+      },
+      "total_apps": 23615,
+      "users_per_day": 31,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 15201,
+      "searchads_popularity": 23,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "taxi app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "taxi apps",
+      "id": 603154,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T03:10:33.427647+00:00",
+      "updateDateIpad": "2020-06-18T03:10:33.547256+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 7,
+        "change": 0
+      },
+      "total_apps": 23626,
+      "users_per_day": 20,
+      "ipad_position_info": {
+        "position": 9,
+        "change": 0
+      },
+      "ipad_total_apps": 15196,
+      "searchads_popularity": 10,
+      "suggestions_count": 2,
+      "timestamp": "-",
+      "color": 3,
+      "translation": "taxi apps",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "taxi cab app",
+      "id": 604270,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T02:58:00.702963+00:00",
+      "updateDateIpad": "2020-06-18T02:58:00.814571+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 6,
+        "change": 0
+      },
+      "total_apps": 5819,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 3245,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 0,
+      "translation": "taxi cab app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "taxis",
+      "id": 604300,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:51:44.505459+00:00",
+      "updateDateIpad": "2020-06-19T00:51:44.710023+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 22,
+        "change": -3
+      },
+      "total_apps": 24009,
+      "users_per_day": 37,
+      "ipad_position_info": {
+        "position": 40,
+        "change": 0
+      },
+      "ipad_total_apps": 15359,
+      "searchads_popularity": 16,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "taxis",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 3
+    }, {
+      "keyword": "taxi service",
+      "id": 2590075,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:25:43.362703+00:00",
+      "updateDateIpad": "2020-06-19T00:25:43.583364+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 6,
+        "change": 1
+      },
+      "total_apps": 23131,
+      "users_per_day": 20,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 14938,
+      "searchads_popularity": 12,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 5,
+      "translation": "taxi service",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "transit app",
+      "id": 2395832,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:02:19.748602+00:00",
+      "updateDateIpad": "2020-06-19T02:02:19.918390+00:00",
+      "isCompleted": true,
+      "canStartCampaign": 0,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": "-",
+        "change": null
+      },
+      "total_apps": 2610,
+      "users_per_day": 67,
+      "ipad_position_info": {
+        "position": "-",
+        "change": null
+      },
+      "ipad_total_apps": 1738,
+      "searchads_popularity": 30,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 1,
+      "translation": "transit app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": null,
+      "ipad_best_rank": null
+    }, {
+      "keyword": "uber",
+      "id": 230726,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:00:55.862072+00:00",
+      "updateDateIpad": "2020-06-19T02:00:55.978026+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "total_apps": 407,
+      "users_per_day": 8988,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 213,
+      "searchads_popularity": 79,
+      "suggestions_count": 11,
+      "timestamp": "-",
+      "color": 4,
+      "translation": "uber",
+      "translation_from": "en",
+      "in_name": {
+        "count": 1,
+        "full": true
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 1,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "uber app",
+      "id": 603714,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T03:03:02.131286+00:00",
+      "updateDateIpad": "2020-06-18T03:03:02.236700+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "total_apps": 5653,
+      "users_per_day": 74,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 3519,
+      "searchads_popularity": 37,
+      "suggestions_count": 4,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "uber app",
+      "translation_from": "de",
+      "in_name": {
+        "count": 1,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 1,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "uber app free",
+      "id": 606214,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:10:33.041304+00:00",
+      "updateDateIpad": "2020-06-19T02:10:33.133312+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "total_apps": 228,
+      "users_per_day": 33,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 126,
+      "searchads_popularity": 19,
+      "suggestions_count": 1,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "uber app free",
+      "translation_from": "en",
+      "in_name": {
+        "count": 1,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 1,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "uber driver app",
+      "id": 2501732,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:00:09.460169+00:00",
+      "updateDateIpad": "2020-06-18T04:00:09.527251+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 3,
+        "change": 0
+      },
+      "total_apps": 414,
+      "users_per_day": 2455,
+      "ipad_position_info": {
+        "position": 3,
+        "change": 0
+      },
+      "ipad_total_apps": 219,
+      "searchads_popularity": 65,
+      "suggestions_count": 2,
+      "timestamp": "-",
+      "color": 2,
+      "translation": "uber driver app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 1,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "ubereats",
+      "id": 604938,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:23:23.059135+00:00",
+      "updateDateIpad": "2020-06-19T02:23:23.129685+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 12,
+        "change": 1
+      },
+      "total_apps": 574,
+      "users_per_day": 516,
+      "ipad_position_info": {
+        "position": 9,
+        "change": 0
+      },
+      "ipad_total_apps": 309,
+      "searchads_popularity": 50,
+      "suggestions_count": 5,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "ubereats",
+      "translation_from": "ca",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 3
+    }, {
+      "keyword": "uber eats",
+      "id": 603716,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T05:18:23.451957+00:00",
+      "updateDateIpad": "2020-06-18T05:18:23.539989+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": true,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 7,
+        "change": 0
+      },
+      "total_apps": 583,
+      "users_per_day": 8115,
+      "ipad_position_info": {
+        "position": 6,
+        "change": 0
+      },
+      "ipad_total_apps": 306,
+      "searchads_popularity": 78,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 5,
+      "translation": "uber eats",
+      "translation_from": "en",
+      "in_name": {
+        "count": 1,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 3
+    }, {
+      "keyword": "yellow cab",
+      "id": 606220,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T00:35:48.957987+00:00",
+      "updateDateIpad": "2020-06-19T00:35:49.110952+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 7,
+        "change": 1
+      },
+      "total_apps": 181,
+      "users_per_day": 57,
+      "ipad_position_info": {
+        "position": 8,
+        "change": -1
+      },
+      "ipad_total_apps": 147,
+      "searchads_popularity": 31,
+      "suggestions_count": 10,
+      "timestamp": "-",
+      "color": 4,
+      "translation": "yellow cab",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 3,
+      "ipad_best_rank": 2
+    }, {
+      "keyword": "yellow cab app",
+      "id": 2501734,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T02:44:11.406640+00:00",
+      "updateDateIpad": "2020-06-19T02:44:11.531346+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 9,
+        "change": 0
+      },
+      "total_apps": 173,
+      "users_per_day": 25,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 143,
+      "searchads_popularity": 19,
+      "suggestions_count": 1,
+      "timestamp": "-",
+      "color": 0,
+      "translation": "yellow cab app",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "yellow cab austin",
+      "id": 2501740,
+      "countryCode": "us",
+      "updateDate": "2020-06-18T04:56:32.262940+00:00",
+      "updateDateIpad": "2020-06-18T04:56:32.377051+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 4,
+        "change": 0
+      },
+      "total_apps": 165,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 134,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 2,
+      "translation": "yellow cab austin",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "yellow cab nyc",
+      "id": 2501738,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T03:14:16.790842+00:00",
+      "updateDateIpad": "2020-06-19T03:14:16.868603+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 5,
+        "change": 0
+      },
+      "total_apps": 187,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 149,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 0,
+      "translation": "yellow cab nyc",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 5,
+      "ipad_best_rank": 1
+    }, {
+      "keyword": "yellow cab of dc",
+      "id": 2501750,
+      "countryCode": "us",
+      "updateDate": "2020-06-19T01:28:44.391311+00:00",
+      "updateDateIpad": "2020-06-19T01:28:44.501972+00:00",
+      "isCompleted": true,
+      "canStartCampaign": true,
+      "isAppstore": true,
+      "is_clustered_search_result": false,
+      "is_keywordstats_outdated": false,
+      "note": "",
+      "favorite": false,
+      "custom_traffic_score": null,
+      "position_info": {
+        "position": 2,
+        "change": 0
+      },
+      "total_apps": 165,
+      "users_per_day": 0,
+      "ipad_position_info": {
+        "position": 1,
+        "change": 0
+      },
+      "ipad_total_apps": 134,
+      "searchads_popularity": 5,
+      "suggestions_count": { },
+      "timestamp": "-",
+      "color": 0,
+      "translation": "yellow cab of dc",
+      "translation_from": "en",
+      "in_name": {
+        "count": 0,
+        "full": false
+      },
+      "in_subtitle": {
+        "count": 0,
+        "full": false
+      },
+      "best_rank": 2,
+      "ipad_best_rank": 1
+    }
+  ],
+  "tabs": [ ],
+  "has_available_keywords": true,
+  "pages": 0,
+  "recordsTotal": 42,
+  "recordsFiltered": 42,
+  "result": "ok"
+}

@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import WebFont from "webfontloader";
+import { App } from "./App";
+
+import "./index.css";
+import { statsModule } from "./routes/stats";
+import * as serviceWorker from "./serviceWorker";
+import { createStore } from "./store";
+
+const store = createStore({ stats: statsModule.createState([]) });
+
+WebFont.load({
+  google: {
+    families: ["Source Sans Pro:300,400,500,600,700", "Material Icons"]
+  }
+});
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App store={ store } />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

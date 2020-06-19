@@ -1,0 +1,45 @@
+@import "../../util/styles.scss";
+
+$dialog-border-radius: 10px;
+
+.Dialog {
+  @include flex(column, strecth);
+  width: 400px;
+  height: 300px;
+  box-shadow: 0 7px 21px 0 rgba(0, 0, 0, 0.12);
+}
+
+.Dialog__header {
+  @include flex(row, center);
+  background: #ececec;
+  height: 48px;
+  padding: 12px;
+  border-radius: $dialog-border-radius $dialog-border-radius 0 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Dialog__content {
+  flex: 1;
+  background: #fff;
+  border-radius: 0 0 $dialog-border-radius $dialog-border-radius;
+  overflow: hidden;
+  padding: 11px 21px 21px 21px;
+}
+
+.Dialog__title {
+  flex: 1;
+  margin: 0;
+  white-space: nowrap;
+  font-size: 17px;
+  line-height: 22px;
+  color: #b8b8b8;
+}
+
+.Dialog__close {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #666;
+  width: 24px;
+  height: 24px;
+}

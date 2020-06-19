@@ -1,0 +1,25 @@
+.StatsTable {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .DataTable__cell {
+    &.DataTable__cell_keyword {
+      text-align: left;
+    }
+
+    &.DataTable__cell_suggestionCount, &.DataTable__cell_explore {
+      max-width: 150px;
+    }
+  }
+
+  &__remove {
+    width: 24px;
+    height: 24px;
+    color: #666;
+    cursor: pointer;
+
+    &:hover {
+      color: #555;
+    }
+  }
+}
