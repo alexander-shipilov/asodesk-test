@@ -1,3 +1,3 @@
 export * from "./statsModule";
+export * from "./StatsResponse";
 export * from "./StatsRoute";
-export * from "./StatsPage";
