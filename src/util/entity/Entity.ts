@@ -1,7 +1,8 @@
 import { Nullable } from "../Nullable";
 
 export interface Entity<T> {
-  value: T,
-  error: Nullable<Error>,
-  loading: boolean,
+  data: T;
+  error: Nullable<Error>;
+  loading: boolean;
+  setData(data: T): this;
 }

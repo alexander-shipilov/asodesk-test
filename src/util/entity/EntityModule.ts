@@ -31,7 +31,7 @@ export class EntityModule<P extends string, V extends any>
         return state.merge({ loading: true, error: null });
 
       case actionTypes.fetch.completed:
-        return state.merge({ loading: false, value: action.payload });
+        return state.merge({ loading: false }).setData(action.payload);
 
       case actionTypes.fetch.failed:
         return state.merge({ loading: false, error: action.payload });

@@ -3,11 +3,15 @@ import { State } from "../State";
 import { Entity } from "./Entity";
 
 export class EntityState<T> extends State<Entity<T>> implements Entity<T> {
-  public readonly error: Nullable<Error> = null;
+  public error: Nullable<Error> = null;
 
-  public readonly loading: boolean = false;
+  public loading: boolean = false;
 
-  constructor(public readonly value: T) {
+  constructor(public data: T) {
     super();
+  }
+
+  setData(data: T): this {
+    return this.merge({ data });
   }
 }

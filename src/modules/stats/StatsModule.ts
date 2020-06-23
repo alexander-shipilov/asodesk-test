@@ -35,8 +35,6 @@ export class StatsModule<P extends string>
 
     return (state: S = initialState, action: AnyAction) => {
       switch (action.type) {
-      case actionTypes.fetch.completed:
-        return entityReducer(state, action).deselectAll();
       case actionTypes.remove:
         return state.remove(action.payload);
       case actionTypes.toggle:

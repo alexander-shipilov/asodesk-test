@@ -1,5 +1,5 @@
-import { DataPageProps } from "../../../components/DataPage";
-import { StatsData } from "../../../modules/stats";
+import { ReactNodeLike } from "prop-types";
 
-export interface StatsPageProps extends DataPageProps<StatsData[]> {
+export interface StatsPageProps {
+  children: ReactNodeLike;
 }

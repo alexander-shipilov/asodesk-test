@@ -17,7 +17,7 @@ export const StatsTable = (props: StatsTableProps) => {
   const { data, className, onRemove, ...rest } = props;
 
   const columns: Column<StatsData>[] = useMemo(
-    (): Column<StatsData>[] => props.columns || [
+    (): Column<StatsData>[] => [
       {
         accessor: "keyword",
         Header: (
@@ -87,7 +87,7 @@ export const StatsTable = (props: StatsTableProps) => {
         )
       }
     ],
-    [props.columns, props.selected, props.selectedAll, props.onToggle, props.onToggleAll, onRemove, props.className]
+    [onRemove]
   );
 
   return (

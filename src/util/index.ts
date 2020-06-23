@@ -1,6 +1,7 @@
 export * from "./api";
 export * from "./entity";
 export * from "./module";
+export * from "./selection";
 export * from "./createPrefixed";
 
 export * from "./Nullable";

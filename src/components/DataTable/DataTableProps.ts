@@ -1,18 +1,17 @@
 import { Column } from "react-table";
-import { StyledProps } from "../../util";
+import { Nullable, SelectionState, StyledProps } from "../../util";
 
-export interface DataTableData {
-  id: number
+export interface DataTableData<I> {
+  id: I
 }
 
-export interface ConcreteDataTableProps<T extends DataTableData> extends StyledProps {
+export interface ConcreteDataTableProps<I, T extends DataTableData<I>> extends StyledProps {
   data: T[];
-  selected: Set<number>;
-  selectedAll: boolean;
-  onToggle: (id: number) => void;
+  selection: Nullable<SelectionState<I>>;
+  onToggle: (id: I) => void;
   onToggleAll: (selectedAll: boolean) => void;
 }
 
-export interface DataTableProps<T extends DataTableData> extends ConcreteDataTableProps<T> {
+export interface DataTableProps<I, T extends DataTableData<I>> extends ConcreteDataTableProps<I, T> {
   columns: Column<T>[];
 }

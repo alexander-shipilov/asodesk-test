@@ -1,44 +1,47 @@
 import cx from "classnames";
-import React from "react";
-import { CellProps, Hooks, useTable } from "react-table";
+import React, { useMemo } from "react";
+import { CellProps, useTable } from "react-table";
 import { CheckBox } from "../CheckBox";
 import "./DataTable.scss";
 import { DataTableData, DataTableProps } from "./DataTableProps";
-import { DataTableRowSelector } from "./DataTableRowSelector";
 
-export function DataTable<D extends DataTableData>(props: DataTableProps<D>) {
-  const { className, columns, data, selected, selectedAll, onToggle, onToggleAll } = props;
+export function DataTable<I, T extends DataTableData<I>>(props: DataTableProps<I, T>) {
+  const { className, data, selection, onToggle, onToggleAll } = props;
 
-  function selectable<D extends DataTableData>(hooks: Hooks<D>) {
-    hooks.visibleColumns.push(columns => [
-      {
-        id: "selection",
+  const columns = useMemo(() => {
+    let columns = props.columns;
 
-        Header: () => (
-          <CheckBox checked={ selectedAll || (selected.size ? undefined : false) } className='Table__toggle'
-            onCheckedChange={ onToggleAll } />
-        ),
+    if (selection) {
+      const { isAllSelected, selectedCount } = selection;
+      columns = [
+        {
+          id: "selection",
 
-        Cell: ({ row }: CellProps<D>) => {
-          const { id } = row.original;
-          const isSelected = selected.has(id);
-          const checked = selectedAll || isSelected;
-          const disabled = !selectedAll && isSelected && selected.size === 1;
+          Header: () => (
+            <CheckBox checked={ isAllSelected || (selectedCount === 0 ? false : undefined) }
+              className='Table__toggle' onCheckedChange={ onToggleAll } />
+          ),
 
-          return (
-            <div>
-              <DataTableRowSelector rowId={ id } selected={ checked } disabled={ disabled }
-                className='Table__toggle' onToggle={ onToggle } />
-            </div>
-          );
-        }
-      },
-      ...columns
-    ]);
-  }
+          Cell: ({ row }: CellProps<T>) => {
+            const { id } = row.original;
+            const checked = selection.isSelected(id);
 
-  const hooks = [selectable];
-  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data }, ...hooks);
+            return (
+              <div>
+                <CheckBox checked={ checked } disabled={ checked && selectedCount === 1 }
+                  className='Table__toggle' onCheckedChange={ () => onToggle(id) } />
+              </div>
+            );
+          }
+        },
+        ...columns
+      ];
+    }
+
+    return columns;
+  }, [props.columns, selection, onToggle, onToggleAll]);
+
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data });
 
   return (
     <table { ...getTableProps() } className={ cx("DataTable", className) }>

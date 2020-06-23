@@ -28,7 +28,7 @@ export const DialogRoute = withRouter<DialogRouteProps, ComponentClass<DialogRou
     close() {
       const { history, closePath } = this.props;
 
-      setTimeout(() => history.push(closePath));
+      setTimeout(() => Promise.resolve().then(() => history.push(closePath)), 0);
     }
 
     open() {

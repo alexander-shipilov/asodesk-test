@@ -13,7 +13,7 @@ export abstract class State<T> {
   /**
    * @param value
    */
-  public set(value: T | this): this {
+  public update(value: T | this): this {
     return this.create(value);
   }
 

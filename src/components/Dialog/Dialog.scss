@@ -12,8 +12,7 @@ $dialog-border-radius: 10px;
 .Dialog__header {
   @include flex(row, center);
   background: #ececec;
-  height: 48px;
-  padding: 12px;
+  padding: 17px 24px;
   border-radius: $dialog-border-radius $dialog-border-radius 0 0;
   font-size: 14px;
   font-weight: bold;
