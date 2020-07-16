@@ -1,0 +1,24 @@
+@import "../../../util/styles.scss";
+
+.Info {
+  padding: 8px 16px;
+  background: rgba(255, 255, 255, .8);
+  line-height: 22px;
+  min-height: calc(100% - 16px);
+
+  li {
+    margin: 8px 0;
+  }
+
+  code {
+    background: rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    padding: 2px 4px;
+  }
+}
+
+.Info__mockup {
+  display: block;
+  width: 90%;
+  margin: auto;
+}

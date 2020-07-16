@@ -1,0 +1,77 @@
+@import "../../util/styles.scss";
+
+$page-header-height: 48px !default;
+$page-menu-width: 250px !default;
+
+.Page {
+  @include position(relative, $height: 100vh);
+  @include flex(column, stretch);
+  overflow: auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Page__menu {
+  @include position(absolute, 0, $page-header-height, $bottom: 0, $width: $page-menu-width);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.Page__header {
+  @include flex(row);
+  height: 48px;
+  padding: 0 24px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.Page__title {
+  flex: 1;
+  font-size: 20px;
+  color: #fff;
+}
+
+.Page__actions {
+  @include flex(row);
+  white-space: nowrap;
+}
+
+.Page__action {
+  @include flex(row);
+  @include transition(color);
+
+  margin-left: 8px;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    color: #fffb5a;
+  }
+}
+
+.Page__actionIcon {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.Page__content {
+  flex: 1;
+  overflow: auto;
+  margin-left: $page-menu-width;
+  padding: 16px;
+}
+
+.Page__loader {
+  @include position(absolute, 50%, 0);
+  @include transition(transform);
+  transition-delay: .2s;
+  padding: 8px;
+  background: #feffd3;
+  border: 1px solid #f9f889;
+  border-radius: 0 0 5px 5px;
+  transform: translate3d(-50%, -150%, 0);
+  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.12);
+}
+
+.Page__loader.Page__loader_visible {
+  transform: translate3d(-50%, 0, 0);
+  transition-delay: 0s;
+}

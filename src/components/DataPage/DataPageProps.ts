@@ -1,11 +1,8 @@
-import { ReactNode } from "react";
-import { Nullable, StyledProps } from "../../util";
+import { Nullable } from "../../util";
+import { PageProps } from "../Page";
 
-export interface DataPageProps<T> extends StyledProps {
-  children?: ReactNode;
-  data: T;
+export interface DataPageProps extends PageProps {
   error: Nullable<Error>;
-  loading: boolean;
   onReady?: () => void;
   onLoad: () => void;
 }

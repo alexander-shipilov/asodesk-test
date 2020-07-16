@@ -3,25 +3,16 @@ import React, { PureComponent } from "react";
 import { FormattedMessage } from "react-intl";
 import { Button } from "../Button";
 import "./DataPage.scss";
+import { Page } from "../Page";
 import { DataPageProps } from "./DataPageProps";
 
-export class DataPage<T> extends PureComponent<DataPageProps<T>> {
+export class DataPage extends PureComponent<DataPageProps> {
   componentDidMount(): void {
     const { onReady } = this.props;
 
     if (onReady) {
       onReady();
     }
-  }
-
-  renderLoading() {
-    const { loading } = this.props;
-
-    return (
-      <div className={ cx("DataPage__loading", { "DataPage__loading_visible": loading }) }>
-        <FormattedMessage id={ "data-page.loading.text" } defaultMessage={ "Loading..." } />
-      </div>
-    );
   }
 
   renderError() {
@@ -43,19 +34,16 @@ export class DataPage<T> extends PureComponent<DataPageProps<T>> {
   }
 
   render() {
-    const { data, error, loading, children, onReady, onLoad, ...rest } = this.props;
+    const { error, children, onReady, onLoad, ...rest } = this.props;
     const className = cx(rest.className, "DataPage", {
-      "DataPage_loading": loading,
-      "DataPage_error": error != null,
-      "DataPage_data": data != null
+      "DataPage_error": error != null
     });
 
     return (
-      <div { ...rest } className={ className }>
+      <Page { ...rest } className={ className }>
         { children }
-        { this.renderLoading() }
         { this.renderError() }
-      </div>
+      </Page>
     );
   }
 }

@@ -2,7 +2,7 @@ import cx from "classnames";
 import React, { useMemo } from "react";
 import { IoMdTrash as RemoveIcon } from "react-icons/io";
 import { FormattedMessage } from "react-intl";
-import { generatePath, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { CellProps, Column } from "react-table";
 import { Color } from "../../../components/Color";
 import { DataTable } from "../../../components/DataTable";
@@ -21,15 +21,15 @@ export const StatsTable = (props: StatsTableProps) => {
       {
         accessor: "keyword",
         Header: (
-          <FormattedMessage id='app.stats.table.keywords.header' defaultMessage='Keywords' />
+          <FormattedMessage id='stats.table.keywords.header' defaultMessage='Keywords' />
         )
       },
       {
         id: "explore",
         Header: "",
         Cell: ({ row }: CellProps<StatsData>) => (
-          <Link to={ generatePath("/explore/:keyword", { keyword: row.values.keyword }) } className={ "Button" }>
-            <FormattedMessage id='app.stats.table.explore.button.text' defaultMessage='Explore' />
+          <Link to={ `/explore/${ row.values.keyword }` } className={ "Button" }>
+            <FormattedMessage id='stats.table.explore.button.text' defaultMessage='Explore' />
           </Link>
         )
       },
@@ -37,8 +37,8 @@ export const StatsTable = (props: StatsTableProps) => {
         accessor: "suggestionsCount",
         Header: "",
         Cell: ({ value }) => (
-          <Link to={ generatePath("/stats/show") } className={ "Button" }>
-            <FormattedMessage id='app.stats.table.show.button.text' values={ { value } }
+          <Link to='/stats/show' className={ "Button" }>
+            <FormattedMessage id='stats.table.show.button.text' values={ { value } }
               defaultMessage='Show' />
           </Link>
         )
@@ -46,7 +46,7 @@ export const StatsTable = (props: StatsTableProps) => {
       {
         accessor: "usersPerDay",
         Header: (
-          <FormattedMessage id='app.stats.table.usersPerDay.header' defaultMessage='Traffic Score' />
+          <FormattedMessage id='stats.table.usersPerDay.header' defaultMessage='Traffic Score' />
         ),
         Cell: ({ value }) => (
           <Numerical value={ value } />
@@ -55,7 +55,7 @@ export const StatsTable = (props: StatsTableProps) => {
       {
         accessor: "totalApps",
         Header: (
-          <FormattedMessage id='app.stats.table.totalApps.header' defaultMessage='Total Apps' />
+          <FormattedMessage id='stats.table.totalApps.header' defaultMessage='Total Apps' />
         ),
         Cell: ({ value }) => (
           <Numerical value={ value } />
@@ -64,7 +64,7 @@ export const StatsTable = (props: StatsTableProps) => {
       {
         accessor: "position",
         Header: (
-          <FormattedMessage id='app.stats.table.position.header' defaultMessage='Rank' />
+          <FormattedMessage id='stats.table.position.header' defaultMessage='Rank' />
         ),
         Cell: ({ value }) => (
           value ? <StatsPosition value={ value } /> : null
@@ -73,7 +73,7 @@ export const StatsTable = (props: StatsTableProps) => {
       {
         accessor: "color",
         Header: (
-          <FormattedMessage id='app.stats.table.color.header' defaultMessage='Color' />
+          <FormattedMessage id='stats.table.color.header' defaultMessage='Color' />
         ),
         Cell: ({ value }) => (
           <Color value={ value } />

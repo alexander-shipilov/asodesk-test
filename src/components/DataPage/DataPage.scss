@@ -1,26 +1,6 @@
 @import "../../util/styles.scss";
 
 .DataPage {
-  overflow: auto;
-  position: relative;
-  min-height: 400px;
-}
-
-.DataPage__loading {
-  @include position(absolute, 50%, 0);
-  @include transition(transform);
-  transition-delay: .2s;
-  padding: 8px;
-  background: #feffd3;
-  border: 1px solid #f9f889;
-  border-radius: 0 0 5px 5px;
-  transform: translate3d(-50%, -150%, 0);
-  box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.12);
-}
-
-.DataPage__loading.DataPage__loading_visible {
-  transform: translate3d(-50%, 0, 0);
-  transition-delay: 0s;
 }
 
 .DataPage__error {

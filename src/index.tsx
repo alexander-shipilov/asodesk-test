@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import WebFont from "webfontloader";
 import { App } from "./App";
 
-import "./index.css";
+import "./index.scss";
 import { statsModule } from "./routes/stats";
 import * as serviceWorker from "./serviceWorker";
 import { createStore } from "./store";
