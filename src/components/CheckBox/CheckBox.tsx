@@ -56,7 +56,7 @@ export class CheckBox extends PureComponent<CheckBoxProps> {
       <label { ...props } className={ className }>
         { this.renderInput() }
         { this.renderMark() }
-        <span className={"CheckBox__label"}>
+        <span className={ "CheckBox__label" }>
           { children }
         </span>
       </label>

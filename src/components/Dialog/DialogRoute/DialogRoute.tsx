@@ -1,6 +1,6 @@
 import React, { Children, cloneElement, Component, ComponentClass, createElement, ReactElement } from "react";
 import { Route, RouteComponentProps, withRouter } from "react-router-dom";
-import { Dialog } from "./Dialog";
+import { Dialog } from "../Dialog";
 import { DialogRouteProps, DialogRouteRenderer } from "./DialogRouteProps";
 import { DialogRouteState } from "./DialogRouteState";
 

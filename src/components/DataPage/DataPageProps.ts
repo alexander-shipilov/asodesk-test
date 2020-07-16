@@ -1,8 +1,8 @@
-import { ReactNodeLike } from "prop-types";
+import { ReactNode } from "react";
 import { Nullable, StyledProps } from "../../util";
 
 export interface DataPageProps<T> extends StyledProps {
-  children?: ReactNodeLike;
+  children?: ReactNode;
   data: T;
   error: Nullable<Error>;
   loading: boolean;

@@ -1,9 +1,7 @@
 import cx from "classnames";
 import React, { Children, cloneElement, PureComponent, ReactElement } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-
-import { Portal } from "../Portal";
-
+import { Portal } from "../../Portal";
 import "./DialogPortal.scss";
 import { DialogPortalProps } from "./DialogPortalProps";
 

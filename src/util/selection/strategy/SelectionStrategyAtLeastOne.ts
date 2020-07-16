@@ -4,7 +4,7 @@ import { SelectionStrategyMultiple } from "./SelectionStrategyMultiple";
 
 export class SelectionStrategyAtLeastOne<T> extends SelectionStrategyMultiple<T> {
   canDeselect(state: SelectionState<T>): boolean {
-    return state.selected.size > 1;
+    return state.selectedCount > 1;
   }
 
   getSelected(state: SelectionState<T>, selectedItems: SelectionItems<T>): SelectionItems<T> {

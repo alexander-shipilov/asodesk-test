@@ -1,9 +1,9 @@
-import { ReactNodeLike } from "prop-types";
+import { ReactNode } from "react";
 import { StyledProps } from "../../util";
 
 export interface CheckBoxProps extends StyledProps {
   checked?: boolean,
-  children?: ReactNodeLike,
+  children?: ReactNode,
   disabled?: boolean,
   onCheckedChange?: (checked: boolean) => void
 }

@@ -1,10 +1,10 @@
-import { ReactNodeLike } from "prop-types";
+import { ReactNode } from "react";
 import { StyledProps } from "../../util";
 
 export interface DialogProps extends StyledProps {
   rootId: string,
   timeout: number,
   visible: boolean,
-  title: ReactNodeLike
+  title: ReactNode
   onVisibleChange: (visible: boolean) => void
 }
